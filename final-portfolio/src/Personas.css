@@ -1,0 +1,174 @@
+/* body {
+  text-align: center;
+} */
+
+p, h1, h2, h3, h4, li {
+  font-family: 'Lato'
+}
+
+p, li {
+  line-height: 1.5;
+}
+
+h2 {
+  text-align: center;
+}
+
+.storyboard {
+  text-align: center;
+}
+
+.padding {
+  padding: 60px;
+  padding-bottom: 20px;
+}
+
+#intro {
+  margin: auto;
+}
+
+.empathy-map {
+  width: 40%;
+  display: inline-block;
+}
+
+.frame {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5px;
+}
+
+.storyboard {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.theodora, .brian {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  padding: 20px;
+  padding-top: 0;
+}
+
+#bri {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#theo {
+  border-radius: 0;
+}
+
+.line-spacing {
+  line-height: 1.5rem;
+}
+
+.heading-spacing {
+  margin: 5px;
+}
+
+.personas {
+  text-align: center;
+}
+
+.sketch-img {
+  width: 35%;
+  height: 35%;
+  padding-left: 15vw;
+  display: inline-block;
+}
+
+.sketch {
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-padding {
+  padding-bottom: 8rem;
+}
+
+.list {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin-top: 15vh;
+  margin-left: 5vw;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #eb98a0;
+}
+
+.pink-blue {
+  background-color: #eb98a0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 75%;
+  margin: auto;
+}
+
+#observations-intro, #interviews-intro, #intro-heading, #empathy-heading, #storyboard-heading, #conclusions-heading {
+  background-color: LightBlue;
+  border-radius: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#storyboard-heading {
+  padding: 20px;
+}
+
+#intro-heading {
+  text-align: center;
+}
+
+#observations-list, #intro-body, .reduced-size, #storyboard-rounding, #conclusions-list, #conclusions-container {
+  border-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.reduced-size {
+  width: 75%;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+#qa {
+  text-align: center;
+}
+
+.qa-heading {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#questions, #answers {
+  width: 37.5%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  /* padding-left: 5vw; */
+}
+
+#questions {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#answers {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.padding-align {
+  text-align: center;
+}

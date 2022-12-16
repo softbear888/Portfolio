@@ -1,0 +1,285 @@
+/* https://www.joshwcomeau.com/css/custom-css-reset/
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato'
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+img {
+  border: 2px solid black;
+}
+
+#about {
+  width: 50%;
+  margin-top: -4rem;
+}
+
+#about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  min-height: 60vh;
+}
+
+#about-me {
+  width: 60%;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #eb98a0;
+  padding: 20px;
+  vertical-align: middle;
+  margin-left: 40px;
+  color: black;
+  line-height: 1.5;
+}
+
+#bear {
+  display: inline-block;
+  width: 20%;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+body {
+  background: Beige;
+}
+
+.btn {
+  all: unset;
+  font-family: 'Lato';
+  background-color: #eb98a0;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  color: black;
+}
+
+.btn-container {
+  margin: 10px;
+}
+
+.btn:focus {
+  background-color: #eb98a0;
+}
+
+.center {
+  text-align: center;
+}
+
+#dropdown-basic {
+  background-color: LightBlue;
+  margin: -4px;
+}
+
+.dropdown-item {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+#dropdown-menu {
+  background-color: LightBlue;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 2;
+  position: absolute;
+  width: 315px;
+}
+
+#footer {
+  background-color: LightBlue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  height: 150px;
+}
+
+#hi {
+  width: 100vw;
+  text-align: center;
+  margin-bottom: -5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+#my-work {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#navbar {
+  padding-left: 100px;
+  padding-right: 100px;
+  height: calc(1.5rem + 45px);
+  background-color: LightBlue;
+}
+
+.navbar-home {
+  float: left;
+}
+
+.navbar-item {
+  display: inline;
+  margin: 15px;
+  font-family: 'Lato';
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar-right {
+  float: right;
+}
+
+#or {
+  vertical-align: center;
+}
+
+#stay-in-touch {
+  width: 100%;
+  text-align: center;
+}
+
+#socials {
+  margin-left: 5px;
+}
+
+.sparkle {
+  position: absolute;
+  border: none;
+}
+
+#sparkle-left {
+  margin-right: 60%;
+  margin-bottom: 8%;
+}
+
+#sparkle-right {
+  margin-left: 60%;
+  margin-top: 8%;
+  transform: scaleX(-1);
+}
+
+.symbol {
+  margin: 5px;
+}
+
+.welcome-body {
+  /* background-image: url('../images/Welcome-BG-1.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.75; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 300px;
+  background-color: #eb98a0;
+}
+
+.work-card {
+  margin: 3%;
+  width: 35%;
+  border-radius: 10px;
+  background-color: #eb98a0;
+  padding: 20px;
+}
+
+.work-card-btn {
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+#work-cards {
+   display: inline;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.work-heading {
+  margin: 15px;
+  margin-left: 0;
+}
+
+li a::after {
+
+}
+
+li a:hover, .dropdown-item:hover {
+  text-decoration-line: underline;
+  transform-origin: bottom left;
+  transition: 1s ease;
+}
+
+.work-card:hover, .btn:hover {
+  background-color: rgba(232, 222, 130, 0.7);
+  transition: 0.2s ease;
+}

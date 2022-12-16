@@ -1,0 +1,114 @@
+p, h1, h2, h3, h4, li {
+  font-family: 'Lato'
+}
+
+h4 {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+h5 {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+#based-on-feedback {
+  margin-top: 0;
+  text-align: center;
+}
+
+.bottom-margin {
+  margin-bottom: 20px;
+}
+
+.bottom-padding {
+  padding-bottom: 8rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-heading {
+  padding: 5px;
+}
+
+#last-video {
+  margin-bottom: 0;
+}
+
+.pink-blue {
+  background-color: #eb98a0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 75%;
+  margin: auto;
+}
+
+.fill-in-top {
+  background-color: LightBlue;
+  border-radius: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.fill-in-bottom {
+  border-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.padding {
+  text-align: center;
+}
+
+.resize-screenshot-half {
+  margin: 0 10px;
+  margin-top: -20px;
+  width: 45%;
+  display: inline;
+}
+
+.resize-screenshot-one {
+  margin: 0 10px;
+  margin-top: -20px;
+}
+
+.resize-screenshot-third {
+  margin: 0 10px;
+  margin-top: -20px;
+  width: 30%;
+  display: inline;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.task {
+  margin: 20px 0;
+}
+
+.user-testing-vid {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.wireframe {
+  margin-bottom: 5px;
+}
+
+.wireframe-box {
+  width: 47%;
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 10px;
+  margin-bottom: 30px;
+}
